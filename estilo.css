@@ -1,0 +1,32 @@
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.columna{
+    background: orange;
+    width: 100px;
+}
+.columna:nth-child(1){
+    height: 300px;
+}
+.columna:nth-child(2){
+    height: 200px;
+}
+.columna:nth-child(3){
+    height: 400px;
+}
+.columna:nth-child(4){
+    height: 100px;
+}
+
+.columna:nth-child(odd) {
+    background: orange;
+}
+.columna:nth-child(even) {
+    background: violet;
+}
+
+.contenedor2 .columna {
+    float: left;
+}
